@@ -814,7 +814,7 @@ table { border-collapse: collapse; }
 .contador__btn:disabled { opacity: .35; cursor: not-allowed; }
 .contador__valor { font-family: var(--fuente-display); font-size: 2.25rem; line-height: 1; min-width: 2ch; text-align: center; font-variant-numeric: tabular-nums; }
 .fichas--compactas .ficha span, .fichas--horas .ficha span { padding: 0 16px; letter-spacing: .08em; }
-.fichas--horas { max-height: 172px; overflow-y: auto; padding: 2px; margin: -2px; }
+.fichas--horas { padding: 2px; margin: -2px; }
 .fichas--horas .ficha span { text-transform: none; font-variant-numeric: tabular-nums; letter-spacing: .02em; font-size: 14px; }
 .reserva__ayuda { font-size: .9375rem; opacity: .8; }
 .reserva__fecha input, .campo {
